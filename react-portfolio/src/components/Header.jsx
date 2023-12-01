@@ -10,7 +10,7 @@ const Header = () =>{
             <h1>Jae Kim</h1>
         </div>
          <Navigation/>
-         </>
+        </>
     )
 }
  export default Header
