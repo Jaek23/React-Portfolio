@@ -1,24 +1,20 @@
+import '../../style/Footer.css'
+
 function Footer (){
     return(
-        <div className="card text-center">
-        <div className="card-header">
-            <ul className="nav nav-pills card-header-pills d-flex justify-content-center">
-
-            <li className="nav-item p-2">
-                <a className="nav-link active" href="#">GitHub</a>
-            </li>
-
-            <li className="nav-item p-2">
-                <a className="nav-link active" href="#">LinkedLn</a>
-            </li>
-
-            <li className="nav-item p-2">
-                <a className="nav-link active" href="#">Email</a>
-            </li>
-
-            </ul>
-        </div>
-    </div>
+        <footer>
+            <section className='footer-btn'>
+                <div className='footer-link'>
+                <button><a href="#">GitHub</a></button>
+                </div>
+                <div className='footer-link'>
+                <button><a href="#">LinkedLn</a></button>
+                </div>
+                <div className='footer-link'>
+                <button><a href="#">Email</a></button>
+                </div>
+            </section>
+        </footer>
     )
 }
 export default Footer

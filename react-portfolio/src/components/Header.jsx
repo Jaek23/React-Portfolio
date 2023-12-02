@@ -5,12 +5,10 @@ import '../../style/header.css'
 // Header component
 const Header = () =>{
     return(
-        <>
-        <div className='header'>
-            <h1>Jae Kim</h1>
+        <div className="header">
+            <h1 className="d-flex align-items-center">Jae Kim</h1>
+            <Navigation/>
         </div>
-         <Navigation/>
-        </>
     )
 }
  export default Header

@@ -1,0 +1,18 @@
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border:2px solid black;
+    height:15vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-btn{
+    display: flex;
+}
+
+.footer-link{
+    margin-left: 20px;
+}
