@@ -20,3 +20,26 @@
     margin-left:20px;
     border:2px solid black;
 }
+
+.port-component{
+    background-image: url(../src/utilities/blackbackground.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.cardBtn{
+    text-decoration: none;
+    border:1px solid black;
+    background: #888888;
+    color:#e1e1e1 ;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.portfolioBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

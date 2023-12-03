@@ -12,6 +12,11 @@ form{
     font-size: 50px;
 }
 
-
+.contact-component{
+    background-image: url(../src/utilities/blackbackground.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
 
 

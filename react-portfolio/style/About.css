@@ -31,3 +31,15 @@
     background-position: center;
     color:white;
 }
+
+.resume-btn{
+    color: #e1e1e1;
+    background: #888888;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display:flex;
+    justify-content: center;
+    border-radius: 5px;
+    width:10%;
+  }
