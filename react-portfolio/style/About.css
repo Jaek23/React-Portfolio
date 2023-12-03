@@ -1,23 +1,33 @@
 .about-container{
     display: flex;
-    justify-content: center;
+    margin-left:20px;
+    /* justify-content: center; */
     align-items: center;
-    height:75vh;
+    height:70vh;
 }
 
 .card-section{
     width:50vw;
     height:50vh;
-    border:2px solid black;
+    /* border:2px solid black; */
     border-radius:20px;
 }
 
 .card-body{
     display:flex;
     flex-direction: column;
-    align-items: center;
+    line-height:45px;
+    font-weight: 500;
+    /* align-items:center; */
 }
 
 .card{
     border:none;
+}
+
+.about-background{
+    background-image: url(../src/utilities/black-paper-background.png);
+    background-size: cover;
+    background-position: center;
+    color:white;
 }

@@ -6,7 +6,7 @@ import '../../style/header.css'
 const Header = () =>{
     return(
         <div className="header">
-            <h1 className="d-flex align-items-center">Jae Kim</h1>
+            <h1 className="d-flex align-items-center header-name">Jae Kim</h1>
             <Navigation/>
         </div>
     )

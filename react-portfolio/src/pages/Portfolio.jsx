@@ -1,8 +1,11 @@
 import '../../style/Portfolio.css'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const Portfolio = () =>{
     return(
-        <>
+        <div className='port-component'>
+        <Header/>
         <div className='container'>
         <div className='wrapper'>
         <div className="card">
@@ -41,7 +44,8 @@ const Portfolio = () =>{
         </div>
 
         </div>
-        </>
+        <Footer/>
+        </div>
     )
 }
 export default Portfolio

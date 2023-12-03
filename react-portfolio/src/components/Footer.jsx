@@ -5,13 +5,13 @@ function Footer (){
         <footer>
             <section className='footer-btn'>
                 <div className='footer-link'>
-                <button><a href="#">GitHub</a></button>
+                <a href="#" className='footer-button'>GitHub</a>
                 </div>
                 <div className='footer-link'>
-                <button><a href="#">LinkedLn</a></button>
+                <a href="#" className='footer-button'>LinkedLn</a>
                 </div>
-                <div className='footer-link'>
-                <button><a href="#">Email</a></button>
+                 <div className='footer-link'>
+                <a href="#" className='footer-button'>Email</a>
                 </div>
             </section>
         </footer>

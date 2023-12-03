@@ -1,6 +1,11 @@
 .header{
     display:flex;
     justify-content: space-between;
-    height:10vh;
-    border:2px solid black;
+    height:15vh;
+    color:white;
+    /* border:2px solid black; */
+}
+
+.header-name{
+    margin-left:20px;
 }

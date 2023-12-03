@@ -1,18 +1,29 @@
 footer{
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     bottom: 0;
-    border:2px solid black;
+    /* border:2px solid black; */
     height:15vh;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
+.footer-link{
+    margin:20px;
+} 
+
 .footer-btn{
-    display: flex;
+    display: flex; 
 }
 
-.footer-link{
-    margin-left: 20px;
+.footer-button{
+    width: 115px;
+    height: 25px;
+    background: transparent;
+    padding: 10px;
+    text-align: center;
+    border:2px solid white;
+    border-radius: 5px;
+    color: white;
 }
