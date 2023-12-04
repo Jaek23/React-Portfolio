@@ -1,6 +1,6 @@
 // Imports
 import Navigation from "./Navigation"
-import '../../style/header.css'
+import '../../style/Header.css'
 
 // Header component
 const Header = () =>{
