@@ -38,12 +38,12 @@ const Portfolio = () =>{
         <div className='wrapper'>
         <div className="card">
             <div className="cardBody">
-                <img src="https://www.mavs.com/wp-content/uploads/2020/04/Mavs-Facebook.jpg" alt=""  className='cardImage'/>
-                <h2 className="cardTitle">Project 3</h2>
-                <p className="cardDescription">To be determined... this project is still in process.</p>
+                <img src="https://a.espncdn.com/photo/2020/0311/espn_fba_1296x729.jpg" alt="NBA fantasy logo"  className='cardImage'/>
+                <h2 className="cardTitle">MyFantasyDraft</h2>
+                <p className="cardDescription">Player statistics of all 30 NBA teams.</p>
                 <div className='portfolioBtn'>                
-                <a href="" className='cardBtn' target='null'>Deployed Link</a>
-                <a href="" className='cardBtn' target='null'>GitHub Repository</a>
+                <a href="https://myfantasydraft-3b76c1450b6a.herokuapp.com/" className='cardBtn' target='null'>Deployed Link</a>
+                <a href="https://github.com/DevonMcfarlen/MyFantasyDraft" className='cardBtn' target='null'>GitHub Repository</a>
                 </div>
             </div>
         </div>

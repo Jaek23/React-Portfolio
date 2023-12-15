@@ -1,7 +1,6 @@
 .about-container{
     display: flex;
     margin-left:20px;
-    /* justify-content: center; */
     align-items: center;
     height:70vh;
 }
@@ -9,7 +8,6 @@
 .card-section{
     width:50vw;
     height:50vh;
-    /* border:2px solid black; */
     border-radius:20px;
 }
 
@@ -18,7 +16,12 @@
     flex-direction: column;
     line-height:45px;
     font-weight: 500;
-    /* align-items:center; */
+    font-family: 'Exo 2', sans-serif;
+}
+
+.card-body p{
+    font-size:large;
+    margin-top: 10px;
 }
 
 .card{

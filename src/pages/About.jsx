@@ -9,8 +9,8 @@ const About = () =>{
         <div className="about-container">
         <div className="card-section">
             <div className="card-body">
-                <h2 className="card-title">About Me</h2>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A est nam autem deserunt culpa ullam harum labore cum libero, id, vitae ab. Maxime nisi dolor praesentium voluptates, soluta mollitia accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate adipisci explicabo tempore, et exercitationem natus dolorem aspernatur, sed tenetur debitis voluptatem deleniti dolores veritatis nesciunt vitae asperiores quaerat ratione nemo.</p>
+                <h1 className="card-title">About Me</h1>
+                <p className="card-text">Aspiring software engineer with a background in marketing and sales. I completed the Full Stack Web Development Bootcamp at the University of Texas at Austin in 2023. I enjoy problem solving and creating user-friendly and visually appealing applications. I am continuously learning new skills to advance my full-stack developing skills. My skills include HTML, CSS, JavaScript, React, Express, Node, and Git.</p>
                 <a 
                 href="https://docs.google.com/document/d/13SJRFSt4HOCTzRtZ-Q4Gg6UaP1j1dmzT/edit"
                 className='resume-btn'
